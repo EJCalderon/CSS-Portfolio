@@ -1,0 +1,77 @@
+*  {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: red;
+}
+header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: purple;
+    padding: 3%;
+    
+}
+header h1 a{
+    font-weight: bold;
+    margin: 0;
+    float: left;
+    font-size: 36px;
+    color: pink;
+    list-style: none;
+
+}
+ul{
+   list-style: none;
+   float: right;
+   margin: 0%;
+   padding: 0%;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 15px 25px;
+}
+.hero div{
+    padding: 3%;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+.hero-text h2{
+    color: saddlebrown;
+    text-align: right;
+    float: right;
+}
+.aboutme{
+    float: left;
+    padding: 1%;
+    font-size: 25px;
+}
+.about-text{
+    float: left;
+    padding-left: 1%;
+    
+}
+
+.work {
+    padding: 1%;
+    font-size: 200%;
+    text-align: left;
+}
+
+.contact{
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    flex-wrap: wrap;
+}
+.contact-me {
+    background-color: var(--tertiary-color);
+}
